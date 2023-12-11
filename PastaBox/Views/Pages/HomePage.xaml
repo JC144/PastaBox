@@ -24,7 +24,7 @@
 
     <Grid VerticalAlignment="Top">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.25*" />
+            <ColumnDefinition Width="Auto" MinWidth="150" MaxWidth="300" />
             <ColumnDefinition Width="12"/>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
