@@ -125,11 +125,11 @@
                         </ui:Button>
                     </StackPanel>
                     <ui:TextBox Text="{Binding ViewModel.SelectedItem.Content}" 
-                            Margin="0,6,0,0"
-                            PlaceholderEnabled="True"
-                            PlaceholderText="Text"
-                            MinHeight="150"
-                            AcceptsReturn="True"/>
+                                Margin="0,6,0,0"
+                                PlaceholderEnabled="True"                                
+                                PlaceholderText="Text"
+                                MinHeight="150"
+                                AcceptsReturn="True"/>
 
                     <Grid Margin="0,24,0,0">
                         <Grid.ColumnDefinitions>

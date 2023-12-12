@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.IO;
 using Wpf.Ui;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
@@ -36,6 +37,12 @@ namespace PastaBox.ViewModels.Pages
                     FolderPath = newFilePath;
                 }
             }
+        }
+
+        [RelayCommand]
+        private void OpenGitHub()
+        {
+            Process.Start(new ProcessStartInfo() { FileName = "https://github.com/JC144/PastaBox", UseShellExecute = true });
         }
 
         public void OnNavigatedTo()

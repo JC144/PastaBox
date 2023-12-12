@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using PastaBox.Models;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using System.Security.Policy;
 using Wpf.Ui;
 using Wpf.Ui.Controls;
 
