@@ -62,7 +62,7 @@
             FontWeight="Medium"
             Text="About PastaBox" />
         <TextBlock Margin="0,12,0,0" Text="{Binding ViewModel.AppVersion, Mode=OneWay}" />
-        <TextBlock FontSize="16"><Hyperlink Command="{Binding OpenGitHubCommand}">https://github.com/JC144/PastaBox</Hyperlink></TextBlock>
+        <TextBlock FontSize="16"><Hyperlink Command="{Binding ViewModel.OpenGitHubCommand}">https://github.com/JC144/PastaBox</Hyperlink></TextBlock>
         
     </StackPanel>
 </Page>

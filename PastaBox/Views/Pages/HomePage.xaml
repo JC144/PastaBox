@@ -125,6 +125,7 @@
                         </ui:Button>
                     </StackPanel>
                     <ui:TextBox Text="{Binding ViewModel.SelectedItem.Content}" 
+                                ClearButtonEnabled="False"
                                 Margin="0,6,0,0"
                                 PlaceholderEnabled="True"                                
                                 PlaceholderText="Text"
